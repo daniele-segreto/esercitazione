@@ -1,0 +1,183 @@
+/* Body */
+body {
+	background-color: #15313F;
+	display: flex;
+	justify-content: center;
+	font-family:'Times New Roman', Times, serif;
+}
+
+/* Contenitore Genarale */
+.container {
+	width: 50%;
+	background-color: #ECF7FD;
+	padding: 10px 40px 20px;
+}
+
+/* Navbar */
+nav {
+	background-color: black;
+	color: white;
+	padding: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	color: aliceblue;
+	list-style-type: none;
+}
+
+nav a {
+	color: aliceblue;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: #91a8e1;
+}
+
+/* Section */
+section {
+	color: black;
+	/* margin-bottom: 30px; */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* Div Interni alla Section */
+.div-section {
+	display: flex;
+	justify-content: center;
+}
+
+/* Elementi all'interno della Sezione */
+.el-section {
+	margin: 30px 15px;
+}
+
+/* Intestazioni Pagine */
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+/* Contenitore della sezione Mailto e Tel */
+.contact-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+/* Mailto */
+.mail-number {
+	color: black;
+	text-decoration: none;
+	padding: 20px;
+	border: 2px solid #15313F;
+	background-color: #91a8e1;
+}
+
+.mail-number:hover {
+	color: aliceblue;
+	background-color: #15313F;
+	padding: 20px;
+}
+
+/* Tel */
+.tel-number {
+	color: black;
+	margin-top: 15px;
+	text-decoration: none;
+	padding: 20px;
+	border: 2px solid #15313F;
+	background-color: #91a8e1;
+}
+
+.tel-number:hover {
+	color: aliceblue;
+	background-color: #15313F;
+	padding:20px;
+}
+
+/* Contenitore Mappa */
+.map {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+/* Form */
+form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 20px;
+	border: 1px solid black;
+	padding: 30px;
+	background-color: white;
+}
+
+form label {
+	margin-top: 10px;
+}
+
+form input {
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+form button {
+	padding: 10px 20px;
+	background-color: #15313F;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* Footer */
+footer {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin-top:30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* Pagine Principali inserite sul Footer */
+footer a {
+	margin-top: 4px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #91a8e1;
+}
+
+/* Contenitore delle Icone Social */
+.social {
+	margin-top: 12px;
+}
+
+/* Icone Social */
+.fa {
+	font-size: 25px;
+	margin: 10px;
+	text-decoration: none;
+}
