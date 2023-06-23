@@ -51,11 +51,28 @@ section {
 .div-section {
 	display: flex;
 	justify-content: center;
+	border: 2px solid gray;
+	margin-top: 20px;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 10px 10px #15313f4b;
+}
+
+.solo-div-section2 {
+	margin-bottom: 20px;
+}
+
+.section-chisiamo {
+	background-color: white;
+	padding: 25px; 
+	border: 2px solid gray;
+	margin: 30px 0;
+	box-shadow: 10px 10px #15313f4b;
 }
 
 /* Elementi all'interno della Sezione */
 .el-section {
-	margin: 30px 15px;
+	margin: 20px 15px;
 }
 
 /* Intestazioni Pagine */
@@ -112,6 +129,7 @@ h3 {
 	justify-content: center;
 	margin-top: 25px;
 	margin-bottom: 20px;
+	/* box-shadow: 10px 10px #15313f4b; */
 }
 
 /* Form */
@@ -124,6 +142,7 @@ form {
 	border: 1px solid black;
 	padding: 30px;
 	background-color: white;
+	box-shadow: 10px 10px #15313f4b;
 }
 
 form label {
