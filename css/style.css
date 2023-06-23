@@ -120,6 +120,7 @@ form {
 	justify-content: center;
 	flex-direction: column;
 	margin-top: 20px;
+	margin-bottom: 25px;
 	border: 1px solid black;
 	padding: 30px;
 	background-color: white;
@@ -181,3 +182,9 @@ footer a:hover {
 	margin: 10px;
 	text-decoration: none;
 }
+
+/* @media screen and (max-width: 480px) {
+	.text {
+		font-size: 16px;
+	}
+} */
